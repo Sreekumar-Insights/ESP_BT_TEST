@@ -1,7 +1,7 @@
 #include "Arduino.h"
 #include "MapFloat.h"
 
-#define BT_InPin  34    
+int BT_InPin = 34;
 int sensorValue;          
 float calibration = 0.16; 
 float bat_percentage;
